@@ -43,7 +43,7 @@ export const TaskList: React.FC = () => {
     if (newTaskTitle.trim() === '') {
       Alert.alert(
         'Empty Task',
-        'Please enter a task description in this box',
+        'Please enter a task description in this box here',
         [{ text: 'OK', style: 'default' }],
         { cancelable: true }
       );
