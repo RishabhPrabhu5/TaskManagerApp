@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and intuitive Task Manager application built with React Native and TypeScript. This app allows users to manage their daily tasks with basic functionality like adding, completing, and deleting tasks.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Add new tasks with descriptions
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Clean and modern user interface
+- Visual feedback for task status
+- Responsive design that works on both iOS and Android
 
-   ```bash
-   npm install
-   ```
+## Prerequisites
 
-2. Start the app
+- Node.js (v14 or higher)
+- npm or yarn
+- React Native development environment set up
+- iOS Simulator (for Mac users) or Android Emulator
 
-   ```bash
-    npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone <repository-url>
+cd taskManager
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+3. Start the development server:
+```bash
+npm start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Run the app:
+```bash
+# For web
+npm run web
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# For iOS
+npm run ios
 
-## Join the community
+# For Android
+npm run android
+```
 
-Join our community of developers creating universal apps.
+5. Alternate way to run (React Documentation):\
+```bash
+npx expo start
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#For web:
+w
+```
+
+
+## Usage
+
+1. **Adding a Task**
+   - Type your task in the input field at the top
+   - Press the green "+" button or hit enter to add the task
+
+2. **Completing a Task**
+   - Tap the checkbox next to a task to mark it as complete/incomplete
+   - Completed tasks will be marked with a checkmark and strikethrough text
+
+3. **Deleting a Task**
+   - Tap the red trash icon next to a task to delete it
+
+## Technologies Used
+
+- React Native
+- TypeScript
+- Expo Vector Icons
+- React Native's built-in components and APIs
+
+## Project Structure
+
+```
+taskManager/
+├── app/
+│   └── index.tsx        # Main App component
+├── components/
+│   ├── TaskItem.tsx     # Individual task component
+│   └── TaskList.tsx     # Task list and management component
+└── ...
+```
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
