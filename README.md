@@ -68,13 +68,13 @@ Studying Math and Computer Science @ Carnegie Mellon University
    - Refer to due date functionality above
 
 
-##Built with:
+## Built with:
 - React Native
 - TypeScript
 - Expo
 - React Native Icons (Ionicons)
 
-##Requirements
+## Requirements
 - Node.js (v14 or higher)
 - npm or yarn
 - React Native development environment set up
@@ -131,7 +131,7 @@ taskManager/
 │   └── index.tsx        # Main App component with layout and structure
 ├── components/
 │   ├── TaskItem.tsx     # Individual task component, imports functions from TaskList
-│   └── TaskList.tsx     # Task list and management component, implements overall functionality
+│   └── TaskList.tsx     # Task list and management component, implements functions
 └── ...
 ```
 
