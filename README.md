@@ -5,7 +5,8 @@ A simple and intuitive Task Manager application built with React Native and Type
 ## Creator
 
 Rishabh Prabhu
-Carnegie Mellon University
+
+Studying Math and Computer Science @ Carnegie Mellon University
 
 ## Features
 
