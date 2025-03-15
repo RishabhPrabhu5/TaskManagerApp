@@ -2,6 +2,11 @@
 
 A simple and intuitive Task Manager application built with React Native and TypeScript. This app allows users to manage their daily tasks with basic functionality like adding, completing, and deleting tasks.
 
+## Creator
+
+Rishabh Prabhu
+Carnegie Mellon University
+
 ## Features
 
 ### Task Management
@@ -131,6 +136,3 @@ taskManager/
 └── ...
 ```
 
-## Contributing
-
-Feel free to submit issues and enhancement requests!
