@@ -9,7 +9,7 @@ export default function App() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.title}>Tasks</Text>
-          <Text style={styles.subtitle}>What's on your mind?</Text>
+          <Text style={styles.subtitle}>Add your tasks below</Text>
         </View>
         <TaskList />
       </SafeAreaView>

@@ -1,6 +1,6 @@
 # Task Manager App
 
-A simple and intuitive Task Manager application built with React Native and TypeScript. This app allows users to manage their daily tasks with basic functionality like adding, completing, and deleting tasks.
+A simple and intuitive Task Manager application built with React Native and TypeScript. This app allows users to organize, priortize and manage their tasks with basic functionality like adding, completing, and deleting tasks.
 
 ## Creator
 
@@ -29,7 +29,7 @@ Studying Math and Computer Science @ Carnegie Mellon University
 - **Format Requirements**:
   - Month: 01-12
   - Day: 01-31 (adjusted per month)
-  - Year: Two digits (20XX)
+  - Year: Last two digits (20XX) (won't work as intended past 2100 lol)
   - Must include leading zeros
 
 ### User Interface
@@ -44,8 +44,6 @@ Studying Math and Computer Science @ Carnegie Mellon University
   - Task title/short description input
   - Date input field with calendar icon
   - Add button for task creation
-
-### Visual Indicators
 - **Task Status**:
   - Completed tasks have strikethrough text
   - Calendar icon changes color for valid dates
@@ -63,12 +61,11 @@ Studying Math and Computer Science @ Carnegie Mellon University
    - Tasks automatically sort by due date and completion status in the following order:
       incomplete tasks by earliest due date, complete tasks by earliest due date.
 
-
 3. **Date Entry**:
    - Enter dates in MM/DD/YY format (e.g., "03/15/24")
    - Dates must be in the future
    - Leading zeros required for single-digit months and days
-
+   - Refer to due date functionality above
 
 
 ##Built with:
@@ -102,6 +99,7 @@ npm start
 ```
 
 4. Run the app:
+ - Can use ExpoGo app to test deployment
 ```bash
 # For web
 npm run web
@@ -130,10 +128,10 @@ w
 ```
 taskManager/
 ├── app/
-│   └── index.tsx        # Main App component
+│   └── index.tsx        # Main App component with layout and structure
 ├── components/
-│   ├── TaskItem.tsx     # Individual task component
-│   └── TaskList.tsx     # Task list and management component
+│   ├── TaskItem.tsx     # Individual task component, imports functions from TaskList
+│   └── TaskList.tsx     # Task list and management component, implements overall functionality
 └── ...
 ```
 

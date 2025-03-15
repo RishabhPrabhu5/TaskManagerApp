@@ -58,7 +58,7 @@ export const TaskList: React.FC = () => {
     const fullYear = 2000 + year;
     const date = new Date(fullYear, month - 1, day);
 
-    // Validate if it's a real date (e.g., not 02/31/24)
+    // Validate if it's a real date (for example, not 02/31/24)
     if (
       date.getMonth() === month - 1 &&
       date.getDate() === day &&
